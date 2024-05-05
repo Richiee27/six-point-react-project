@@ -7,8 +7,8 @@ const HeroComp = () => {
         <Container>
             <Row>
                 <Col>
-                <h1 className='text-white text-center fs-1 animate__animated animate__fadeInUp'>Bebaskan hobimu</h1>
-                <p className='text-white text-center text-white-50 animate__animated animate__fadeInUp animate__delay-1s'>Ribuan orang telah bergabung dengan komunitas kami</p>
+                <h1 className='text-white text-center fs-1 animate__animated animate__fadeInUp'>Cari Barang Tanpa Ribet</h1>
+                <p className='text-white text-center text-white-50 animate__animated animate__fadeInUp animate__delay-1s'>Beli barangmu tanpa batasan disini!</p>
                 </Col>
             </Row>
         </Container>

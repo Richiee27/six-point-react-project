@@ -7,7 +7,7 @@ const FooterComp = () => {
       <Container>
         <Row>
           <div className="col-lg-5 col-xs-12 about-company">
-            <h2>Airsoftgun ID</h2>
+            <h2>Sixpoint ID</h2>
             <p className="pr-5 text-white-50">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
               amet odit non? Eligendi, vero sunt possimus numquam optio laborum
@@ -30,13 +30,13 @@ const FooterComp = () => {
             <h4 className="mt-lg-0 mt-sm-3">Collaborator</h4>
             <ul className="m-0 p-0">
               <li>
-                - <a href="/#">Donate Us</a>
+                - <a href="/#">Alligator Gear</a>
               </li>
               <li>
-                - <a href="/#">Support Us</a>
+                - <a href="/#">UD Artha Tactical</a>
               </li>
               <li>
-                - <a href="/#">Behind The Scene</a>
+                - <a href="/#">Biro Pengadaan Barang/Jasa Polri</a>
               </li>
             </ul>
           </div>

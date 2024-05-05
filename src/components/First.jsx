@@ -28,7 +28,7 @@ const First = () => {
       >
         <Container>
           <Navbar.Brand href="#home" className="fw-bold fs-4">
-            Airsoftgun ID
+            Sixpoint ID
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

@@ -6,6 +6,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import About from "./pages/About";
 import { lazy } from "react";
 import ProductComp from "./components/ProductComp";
+import Forum from "./pages/Forum";
 
 const LazyAbout = React.lazy(() => import('./pages/About'))
 
@@ -15,6 +16,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<LazyAbout />} />
+        <Route path="/forum" element={<Forum />} />
         <Route path="/product" element={<ProductComp />} />
       </Routes>
     </Router>
