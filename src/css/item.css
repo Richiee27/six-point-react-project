@@ -1,0 +1,62 @@
+.item {
+    width: 300px;
+    display: grid;
+    align-items: center;
+    padding: 15px 50px;
+    box-shadow: 0 1px 1px 1px;
+    border-radius: 10px;
+}
+
+.item img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.item p {
+    margin: 5px 0px;
+    padding: 5px;
+}
+
+.item-seller {
+    display: flex;
+    text-align: start;
+    font-weight: 700;
+}
+
+.item_prices{
+    display: flex;
+    gap: 20px;
+}
+
+.item-price-new{
+    color: #374151;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.item-container {
+    display: flex;
+    justify-content: space-between;
+}
+.item-container p {
+    text-align: center;
+    color: white;
+}
+
+.btn-group {
+    cursor: pointer;
+    background-color: #374151;
+}
+
+.btn-group-1 {
+    cursor: pointer;
+    background-color: green;
+    border-radius: 8px;
+}
+
+.item:hover{
+    transform: scale(1.02);
+    transition: 0.6s;
+}

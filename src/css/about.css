@@ -1,6 +1,9 @@
+
 .about-comp {
-    margin: 4rem 6rem;
+    margin: 3rem 6rem;
     text-align: start;
+    padding: 3rem;
+    box-shadow: 1px 1px 1px 3px;
 }
 
 .about-comp h1 {

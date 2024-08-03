@@ -1,13 +1,15 @@
 import React from 'react'
-import ProductComp from '../components/ProductComp'
-import ProductContent from '../components/ProductContent'
-
+import Posts from '../components/Posts'
+import FooterComp from '../components/FooterComp'
+import First from '../components/First'
 
 const Product = () => {
   return (
-    <div>
-      <ProductComp />
-    </div>
+    <>
+      {}
+      <Posts />
+      {}
+    </>
   )
 }
 

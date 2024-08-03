@@ -1,0 +1,98 @@
+:root {
+
+    --color-primary: #646af8;
+    --color-white: #fff;
+    --color-black: #0000;
+    --color-red: rgb(255, 63, 63);
+
+    --container-width-lg: 64%;
+    --container-width-md: 92%;
+    --form-width: 50%;
+
+    --radius-1: 0.3rem;
+    --radius-2: 0.6rem;
+    --radius-3: 1rem;
+    --radius-4: 2rem;
+}
+
+.btn.primary {
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+
+.btn.category {
+    background: var(--color-white);
+    color: var(--color-primary);
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+  
+.btn.sm {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.7rem;
+    font-weight: 400;
+}
+  
+.btn.danger {
+    background: var(--color-red);
+    color: var(--color-white);
+}
+  
+.btn:hover {
+    background: #fff;
+    color: var(--color-white);
+}
+
+section {
+    margin-top: 6rem;
+}
+  
+.container {
+    width: var(--container-width-lg);
+    margin-inline: auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.form_error {
+    background: red;
+    color: white;
+    font-size: 0.8rem;
+    padding: 0.6rem 1rem;
+    border-radius: var(--radius-1);
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+input, select, textarea {
+    width: 100%;
+    padding: 0.6rem 1rem;
+    border-radius: var(--radius-1);
+    resize: none;
+    background: #fff;
+}
+
+.register, .login {
+    width: var(--form-width);
+    margin-inline: auto;
+    height: calc(100vh - 5rem);
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background: #d3d3d3;
+    box-shadow: 0 1px 0 3px;
+}
+
+.register h2, .login h2 {
+    margin-bottom: 2rem;
+}
+
+.register small, .login small{  
+    display: grid;
+    place-items: center;
+    margin-top: 1.5rem;
+}

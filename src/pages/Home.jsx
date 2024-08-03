@@ -6,17 +6,16 @@ import FooterComp from '../components/FooterComp'
 import ServicesComp from '../components/ServicesComp'
 import FaqComp from '../components/FaqComp'
 
+
 const Home = () => {
   return (
-  <div>
-    <HeroComp />
+  <div className='loader'>
     {}
-    <First />
+    <HeroComp />
     <GalleryComp />
     <ServicesComp />
     <FaqComp />
     {}
-    <FooterComp />
   </div>
   )
   
