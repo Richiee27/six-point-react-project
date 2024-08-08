@@ -16,7 +16,7 @@ table {
 }
 
 .btn-cart {
-    background: green;
+    background: #5d782e;
     color: white;
     border-radius: 3px 3px 3px 3px;
     font-weight: 500;
@@ -37,7 +37,7 @@ th {
     text-align: center;
     padding: 5px;
     color: #fff;
-    background: #ffa500;
+    background: #2e3715;
     font-weight: normal;
     border: 1px solid;
 }

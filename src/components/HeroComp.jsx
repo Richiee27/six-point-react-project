@@ -3,8 +3,8 @@ import iconkanan from "../assets/img/images/bahan/vestsatu.png";
 
 const HeroComp = () => {
   return (
-    <div className="hero min-vh-100 d-flex align-items-center">
-      <div className="hero-left mb-5" data-aos="fade-right">
+    <div className="hero min-vh-100 d-flex">
+      <div className="hero-left " data-aos="fade-right">
         <h2>PRODUK TERBARU</h2>
         <div>
           <marquee behavior="scroll" direction="right" width="300">

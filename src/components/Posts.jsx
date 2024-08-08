@@ -8,7 +8,7 @@ const Posts = () => {
   const [posts, setPosts] = useState(DUMMY_POSTS);
 
   return (
-    <div className="post min-vh-100 d-flex align-items-center">
+    <div className="post min-vh-100 align-items-center">
       <h1>Produk Tactical Terbaru</h1>
       <hr />
       <div className="pagination">
@@ -19,7 +19,7 @@ const Posts = () => {
         <a href="#">&raquo;</a>
       </div>
 
-      <div className="posts-item lg-3 md-2 sm-2">
+      <div className="posts-item">
         {DUMMY_POSTS.map((item, i) => {
           return (
             <Item

@@ -1,14 +1,11 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import error1 from '../assets/img/images/bahan/2676383.jpg'
 
 const Error = () => {
   return (
     <section className="error-page">
       <div className="center">
-        <Link to="/" className="btn primary">
-          Not Found
-        </Link>
-        <h2>Go Back Home!</h2>
+        <img src={error1} alt="error" />
       </div>
     </section>
   )

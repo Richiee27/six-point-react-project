@@ -16,22 +16,15 @@ const First = () => {
                 method="post"
                 action="#"
               >
-                <input
-                  type="search"
-                  className="form-control rounded"
-                  placeholder="search"
-                  aria-label="Search"
-                  aria-describedby="search-addon"
-                ></input>
               </Form>
               <Nav.Link href="/create" className="mx-2 ">
-                Mulai Jual
+                Jual
               </Nav.Link>
               <Nav.Link href="/jual" className="mx-2">
                 Belanja
               </Nav.Link>
               <Nav.Link href="/about" className="mx-2">
-                About
+                Profil
               </Nav.Link>
               <Nav.Link href="/login" className="mx-2">
                 Login

@@ -19,6 +19,14 @@ import Error from './pages/Error';
 import Layout from './components/Layout';
 import About from './pages/About';
 import Cart from './pages/Cart';
+import ProfilAkun from './pages/ProfilAkun';
+import { createClient } from '@supabase/supabase-js'
+
+export const supabase= createClient(
+  "https://oxlalzkderqxlakiuzpw.supabase.co",
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im94bGFsemtkZXJxeGxha2l1enB3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjI5MjA1NTIsImV4cCI6MjAzODQ5NjU1Mn0.qylbkH4jv9MCYtsER6OIPukuuvv_d-9_LPES6OEVUa0"
+)
+
 
 AOS.init();
 
@@ -32,10 +40,11 @@ const router = createBrowserRouter([
       {path: "register", element: <Register />, lazy},
       {path: "about", element: <About />, lazy},
       {path: "keranjang", element: <Cart />, lazy},
-      {path: "jual", element: <Posts />},
-      {path: "login", element: <Login />},
-      {path: "create", element: <CreatePost />},
-      {path: "posts/categories/:category", element: <Kategori />},
+      {path: "jual", element: <Posts />, lazy},
+      {path: "login", element: <Login />, lazy},
+      {path: "profil", element: <ProfilAkun />, lazy},
+      {path: "create", element: <CreatePost />, lazy},
+      {path: "posts/categories/:category", element: <Kategori />, lazy},
     ]
   }
   

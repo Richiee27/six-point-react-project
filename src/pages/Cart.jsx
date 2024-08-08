@@ -22,7 +22,7 @@ const Cart = (props) => {
                             <p>6094 Plate Carrier</p>
                             <small>Harga: Rp.650000</small>
                             <br/>
-                            <a href="">Hapus</a>
+                            <a href="#">Hapus</a>
                         </div>
                     </div>
                 </td>
@@ -37,7 +37,7 @@ const Cart = (props) => {
                             <p>6094 Plate Carrier</p>
                             <small>Harga: Rp.650000</small>
                             <br/>
-                            <a href="">Hapus</a>
+                            <a href="#">Hapus</a>
                         </div>
                     </div>
                 </td>
@@ -52,7 +52,7 @@ const Cart = (props) => {
                             <p>6094 Plate Carrier</p>
                             <small>Harga: Rp.850000</small>
                             <br/>
-                            <a href="">Hapus</a>
+                            <a href="#">Hapus</a>
                         </div>
                     </div>
                 </td>

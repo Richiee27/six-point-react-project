@@ -38,14 +38,10 @@ const FaqComp = () => {
               <Accordion.Item eventKey="3">
                 <Accordion.Header>Cara Melakukan Transaksi ?</Accordion.Header>
                 <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  Kami dapat menyediakan opsi untuk rekening bersama, dimana
+                  penjual dan pembeli dapat melakukan transaksi yang dijembatani
+                  oleh admin. Dana yang ditransfer nanti disimpan di rekening
+                  website hingga produk dikirimkan oleh penjual.
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
