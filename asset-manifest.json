@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/six-point-react-project/static/css/main.553c4b5e.css",
+    "main.js": "/six-point-react-project/static/js/main.3972f0ec.js",
+    "static/js/952.961fae0a.chunk.js": "/six-point-react-project/static/js/952.961fae0a.chunk.js",
+    "static/media/atac_vest.jpg": "/six-point-react-project/static/media/atac_vest.fd900b387cf0817f9d15.jpg",
+    "static/media/2676383.jpg": "/six-point-react-project/static/media/2676383.b5d3d19e725445f3be7d.jpg",
+    "static/media/hk417.png": "/six-point-react-project/static/media/hk417.3f96301fbd3ea3a7e191.png",
+    "static/media/vestsatu.png": "/six-point-react-project/static/media/vestsatu.d691264d79ec7bc78d23.png",
+    "static/media/belt_vajra.jpg": "/six-point-react-project/static/media/belt_vajra.ad946eb3946f778d89d3.jpg",
+    "static/media/trouser_satria.jpg": "/six-point-react-project/static/media/trouser_satria.4a1307c966f74a00c1ee.jpg",
+    "static/media/comtac3.jpg": "/six-point-react-project/static/media/comtac3.b55c9e6c3dc1cefed500.jpg",
+    "static/media/bisonbelt.jpg": "/six-point-react-project/static/media/bisonbelt.75ff7e66e6366a724c18.jpg",
+    "static/media/galaxymp5k.jpg": "/six-point-react-project/static/media/galaxymp5k.19436221b0cb647c69f1.jpg",
+    "static/media/Hicapa.jpg": "/six-point-react-project/static/media/Hicapa.bcf8e6c979d22b2c9477.jpg",
+    "static/media/pouch_progull.jpg": "/six-point-react-project/static/media/pouch_progull.52eca14667e3cd89dfa6.jpg",
+    "static/media/eaglemmac.jpg": "/six-point-react-project/static/media/eaglemmac.4ae1551ed9b6efc061c5.jpg",
+    "static/media/velocity.jpg": "/six-point-react-project/static/media/velocity.8f029e471fea16a3f898.jpg",
+    "static/media/ava2.jpg": "/six-point-react-project/static/media/ava2.bf31dec3f626970f06d5.jpg",
+    "index.html": "/six-point-react-project/index.html",
+    "main.553c4b5e.css.map": "/six-point-react-project/static/css/main.553c4b5e.css.map",
+    "main.3972f0ec.js.map": "/six-point-react-project/static/js/main.3972f0ec.js.map",
+    "952.961fae0a.chunk.js.map": "/six-point-react-project/static/js/952.961fae0a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.553c4b5e.css",
+    "static/js/main.3972f0ec.js"
+  ]
+}
