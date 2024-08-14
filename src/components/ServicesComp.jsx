@@ -17,12 +17,12 @@ const ServicesComp = () => {
           <Col className="text-center py-5 px-3 " data-aos="fade-right">
             <i class="fa-solid fa-scale-balanced fs-1 mb-4"></i>
             <h5 className="fw-bold">Atur kesepakatanmu</h5>
-            <p>Pasang dan tawarkan harga sesuai dengan pasarannya</p>
+            <p>Pasang dan tawarkan harga yang sesuai dengan kondisi</p>
           </Col>
           <Col className='text-center py-5 px-3' data-aos='fade-up'>
             <i class="fa-solid fa-ban fs-1 mb-4"></i>
             <h5 className="fw-bold">Jaminan anti banned</h5>
-            <p>Lapak kamu tidak akan terkena banned selama mengikuti regulasi yang kami tetapkan</p>
+            <p>Tidak ada pembatasan dalam menjual produk kamu disini</p>
           </Col>
           <Col
             className="text-center py-5 px-3"
@@ -30,7 +30,7 @@ const ServicesComp = () => {
           >
             <i class="fa-solid fa-people-arrows fs-1 mb-4"></i>
             <h5 className="fw-bold">Jalin relasi baru</h5>
-            <p>Bentuk relasi dan sukir dimana kamu ditawarkan</p>
+            <p>Bentuk relasi dalam mengembangkan bisnis</p>
           </Col>
         </Row>
       </Container>

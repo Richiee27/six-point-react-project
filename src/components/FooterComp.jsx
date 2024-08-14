@@ -38,20 +38,20 @@ const FooterComp = () => {
           </div>
           <div className=" col-lg-5 col-xs-12 row">
             <div className=" mt-lg-3 mt-sm-3 footer-category">
-              <ul className="me-3 px-0">
-                <li>
+              <ul className="me-3 px-0 ">
+                <li className="">
                   <a href="#">Bodygear</a>
                 </li>
-                <li>
+                <li className="pt-4">
                   <a href="#">Footwear</a>
                 </li>
-                <li>
+                <li className="pt-4">
                   <a href="#">Headgear</a>
                 </li>
-                <li>
+                <li className="pt-4">
                   <a href="#">Accesories</a>
                 </li>
-                <li>
+                <li className="pt-4">
                   <a href="#">Backpack</a>
                 </li>
               </ul>

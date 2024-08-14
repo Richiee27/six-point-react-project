@@ -6,7 +6,6 @@ import './css/item.css'
 
 const App = () => {
   
-    
 }
 
 export default App;

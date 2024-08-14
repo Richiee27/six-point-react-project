@@ -1,45 +1,54 @@
 .item {
     width: 300px;
-    display: grid;
-    align-items: center;
-    padding: 15px 50px;
-    box-shadow: 0 1px 1px 1px;
-    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+    border-radius: 1px;
 }
 
 .item img {
     width: 200px;
     height: 300px;
+    margin: auto;
     border-radius: 10px;
     object-fit: cover;
 }
 
 .item p {
-    margin: 5px 0px;
-    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    margin: 5px 5px 5px 5px;
+    padding: 10px;
 }
 
 .item-seller {
-    display: flex;
-    text-align: start;
+    text-align: center;
     font-weight: 700;
 }
 
-.item_prices{
+.item_prices {
     display: flex;
+    text-align: start;
     gap: 20px;
 }
 
-.item-price-new{
+.item-price-new {
+    display: flex;
+    flex-wrap: wrap;
     color: #374151;
-    font-size: 17px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .item-container {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
 }
+
 .item-container p {
     text-align: center;
     color: white;
@@ -48,15 +57,16 @@
 .btn-group {
     cursor: pointer;
     background-color: #374151;
+    color: white;
 }
 
 .btn-group-1 {
     cursor: pointer;
-    background-color: green;
+    background-color: green;    
     border-radius: 8px;
 }
 
-.item:hover{
+.item:hover {
     transform: scale(1.02);
     transition: 0.6s;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import iconkanan from "../assets/img/images/bahan/vestsatu.png";
+import Product from "../pages/Product";
 
 const HeroComp = () => {
   return (
@@ -12,7 +13,7 @@ const HeroComp = () => {
           </marquee>
         </div>
         <div className="hero-latest-btn">
-          <button className="btn-hero">Lihat disini</button>
+          <button className="btn-hero">Lihat Disini</button>
         </div>
       </div>
       <div className="hero-right" data-aos="fade-left">

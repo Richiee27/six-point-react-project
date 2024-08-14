@@ -36,7 +36,7 @@ const Login = () => {
   }
 
   return (
-    <section className="login">
+    <section className="login" data-aos="fade-up">
       <div className="container">
         <h2>Masuk akun</h2>
         <form method="post" className="form login__form" action="/" onSubmit={createUser}>

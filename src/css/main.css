@@ -138,8 +138,72 @@ section {
     height: 220px;
 }
 
-.cardGrid {
-    width: 18rem;
+.post-detail {
+    width: var(--form-width);
+    background: #fff;
+    box-shadow: 1px 1px 1px 1px;
+    margin-inline: auto;
+    border-radius: 10px 10px 10px 10px;
+    padding: 1rem;
+}
+
+.post-detail h2 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.post-detail__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.post-detail__buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}   
+
+.post-detail__buttons i {
+    width: 10px;
+}
+
+.post-detail__thumbnail {
+    margin: 2rem 0rem;
+    width: 100%;
+    max-height: 30rem;
+
+}
+
+.post-detail__thumbnail img {
+    object-fit: cover;
+    width: 300px;
+}
+
+.post-detail p {
+    margin-bottom: 0.7rem;
+}
+
+.seller__post {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: auto;
+}
+
+.post__seller-ava {
+    width: 50px;
+    border-radius: var(--radius-2);
+    margin-top: 10px;
+}
+
+.post__seller-ava img {
+    border-radius: var(--radius-2);
+    width: 70px;
+}
+
+.post__seller-details {
+    display: grid;
+    align-items: center;
 }
 
 .footer {

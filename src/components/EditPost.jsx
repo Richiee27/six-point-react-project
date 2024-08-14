@@ -4,11 +4,9 @@ import { supabase } from "../index";
 import {useQuill} from 'react-quilljs';
 import 'quill/dist/quill.snow.css';
 
-const BikinPost = () => {
+const EditPost = () => {
 
   const { quill, quillRef } = useQuill();
-
-  const {desc, setDesc} = useState("");
 
   const [users, setUsers] = useState([]);
 
@@ -46,9 +44,9 @@ const BikinPost = () => {
   }
 
   return (
-    <section className="create-form">
+    <section className=" min-vh-100 auto edit-form">
       <div className="container">
-        <h2>Mulai Posting</h2>
+        <h2>Edit Konten</h2>
         <form
           method="post"
           className="form login__form"
@@ -69,9 +67,9 @@ const BikinPost = () => {
             <option value="footwear">Footwear</option>
             <option value="accesories">Accesories</option>
           </select>
-          <div>
-            <div style={{ width: 330, height: 150, marginBottom: 100}}>
-              <div ref={quillRef} onChange={setDesc}></div>
+          <div className="quill">
+            <div style={{ width: 400, height: 100, marginBottom: 100, textAlign: "start"}}>
+              <div ref={quillRef}></div>
             </div>
           </div>
           <input
@@ -87,13 +85,13 @@ const BikinPost = () => {
             placeholder="harga"
             onChange={handleChange}
           />
-          <input type="file" name="thumbnail" onChange={handleChange} accept="jpg,jpeg,png" />
+          <input type="file" name="thumbnail" onChange={handleChange} />
           <button type="submit" onSubmit="{createUser}" className="btn primary">
-            Submit
+            Edit
           </button>
         </form>
       </div>
     </section>
   );
 };
-export default BikinPost;
+export default EditPost;

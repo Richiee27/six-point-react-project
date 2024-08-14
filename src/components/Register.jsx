@@ -39,9 +39,9 @@ const Register = () => {
   }
 
   return (
-    <section className="register">
+    <section className="register" data-aos="fade-up">
       <div className="container p-0">
-        <h2>Daftarkan akunmu</h2>
+        <h2>Daftar Akun</h2>
         <form method="post" className="form register__form" action="/login" onSubmit={createUser}>
           <p className="form_error">Gagal menambahkan</p>
           <input

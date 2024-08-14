@@ -1,13 +1,14 @@
 :root {
 
-    --color-primary: #646af8;
+    --color-primary: #5d872e;
     --color-white: #fff;
     --color-black: #0000;
+    --color-grey: #a0978d;
     --color-red: rgb(255, 63, 63);
 
-    --container-width-lg: 65%;
+    --container-width-lg: 75%;
     --container-width-md: 92%;
-    --form-width: 35%;
+    --form-width: 45%;
 
     --radius-1: 0.3rem;
     --radius-2: 0.6rem;
@@ -39,48 +40,93 @@
 }
   
 .btn:hover {
-    background: #fff;
-    color: black;
+    background: #a0978d;
+    color: #fff;
 }
 
 section {
-    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    justify-content: center;
 }
   
 .container {
+    display: flex;
+    flex-wrap: wrap;
     width: var(--container-width-lg);
     margin-inline: auto;
+    justify-content: center;
 }
 
 .form {
     display: flex;
-    flex-direction: column;
-    gap: 0.9rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
 }
 
 .form_error {
     background: red;
     color: white;
     font-size: 0.8rem;
-    padding: 0.6rem 1rem;
+    padding: 0.7rem 1rem;
     border-radius: var(--radius-1);
     display: block;
     margin-bottom: 1rem;
   }
 
 input, select, option, textarea, select {
-    width: 100%;
+    width: 400px;
     padding: 0.7rem 1rem;
-    border-radius: var(--radius-1);
+    border-radius: var(--radius-2);
     background: #fff;
 }
 
-.register, .login, .create-form {
+.login {
     width: var(--form-width);
     margin-inline: auto;
-    height: calc(100vh - 2rem);
+    height: calc(100vh - 3rem);
     display: grid;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    place-items: center;
+    text-align: center;
+    box-shadow: 0 1px 0 2px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.register {
+    width: var(--form-width);
+    margin-inline: auto;
+    height: calc(100vh - 3rem);
+    display: grid;
+    margin-bottom: 50px;
+    place-items: center;
+    text-align: center;
+    box-shadow: 0 1px 0 2px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.edit-form {
+    width: var(--form-width);
+    margin-inline: auto;
+    height: calc(120vh - 4rem);
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    place-items: center;
+    text-align: center;
+    box-shadow: 0 1px 0 2px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.create-form {
+    width: var(--form-width);
+    margin-inline: auto;
+    height: calc(120vh);
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
     place-items: center;
     text-align: center;
     box-shadow: 0 1px 0 2px;
@@ -105,6 +151,21 @@ input, select, option, textarea, select {
     margin-bottom: 2rem;
     color: black;
     font-weight: 700;
+    text-align: center;
+}
+
+.edit-form h2 {
+    margin-bottom: 2rem;
+    color: black;
+    font-weight: 700;
+}
+
+.edit-form p {
+    text-align: center;
+}
+
+.quill {
+    align-items: center;
 }
 
 .q1-editor {

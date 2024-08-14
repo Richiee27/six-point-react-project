@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import PostSeller from "./PostSeller";
 
-const PostItem = ({ postID, category, title, desc, sellerID, thumbnail }) => {
+const PostItem = ({ id, postID, category, title, desc, sellerID, thumbnail }) => {
     const shortDescription = desc.length > 120 ? desc.substr(0, 120) + '...' : desc;
     const postTitle = title.length > 30 ? title.substr(0, 30) + '...' :title;
   return (
