@@ -82,7 +82,8 @@ const BikinPost = () => {
             onChange={handleChange}
           />
           <input
-            type="number"
+            type="text"
+            inputMode="numeric"
             name="harga"
             placeholder="harga"
             onChange={handleChange}
